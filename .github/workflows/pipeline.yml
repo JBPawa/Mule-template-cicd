@@ -56,8 +56,8 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     env:
-      CA_CLIENT_ID: ${{ secrets.CA_CLIENT_ID }}
-      CA_CLIENT_SECRET: ${{ secrets.CA_CLIENT_SECRET }}
+      CA_CLIENT_ID: "26012f83b3a043dc8244bc4d7dca7608"
+      CA_CLIENT_SECRET: "b7cdc407B9a84C49aFd74fDD179f5688"
 
     steps:    
     
